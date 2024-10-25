@@ -1,0 +1,14 @@
+1)
+SELECT title from movies
+
+2)
+SELECT director from movies
+
+3)
+SELECT title, director from movies
+
+4)
+SELECT title, year from movies
+
+5)
+select * from movies

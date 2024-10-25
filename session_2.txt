@@ -1,0 +1,17 @@
+1)
+SELECT * FROM movies
+where id = 6
+
+2)
+SELECT * FROM movies
+where year > 1999
+and year < 2011
+
+3)
+SELECT * FROM movies
+where year < 2000
+or year > 2010
+
+4)
+SELECT title, year FROM movies
+limit 5
