@@ -1,0 +1,13 @@
+1)
+SELECT DISTINCT BUILDING FROM employees
+
+2)
+SELECT DISTINCT BUILDING_name, capacity FROM buildings
+
+3)
+SELECT distinct role, building_name FROM buildings
+left join employees
+on
+building = building_name
+
+### Section 3 threw me off this time.
